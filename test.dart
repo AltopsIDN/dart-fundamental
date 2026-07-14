@@ -7,7 +7,7 @@
 void main(List<String> args) {
   print("Hello World");
 
-  print('object');
+  print(age());
 }
 
 int age() {
