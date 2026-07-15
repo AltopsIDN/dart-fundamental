@@ -9,6 +9,7 @@
 <!-- ctrl + b = menutup tab struktur project di VSCode -->
 <!-- alt + arrow atas/bawah = menggeser/mengubah posisi baris kode -->
 <!-- ctrl + backspace = menghapus satu kata ke kiri -->
+<!-- alt + shift + f = prettier -->
 
 
 
