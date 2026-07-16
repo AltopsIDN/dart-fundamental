@@ -4,7 +4,7 @@ void main(List<String> args) {
 
   String? favoriteFood = null;
   // ! dipaksa tidak null
-  buyAMeal(favoriteFood); // compile error
+  buyAMeal(favoriteFood!); // compile error
 }
 
 /// pada function [buyAMeal] error karena parameter tidak menggunakan null safety
