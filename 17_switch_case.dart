@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(List<String> args) {
   var firstNum = 80;
   var secNum = 20;
@@ -36,7 +38,8 @@ void main(List<String> args) {
    * kalau > atau < tidak terdefinisi
    */
 
-  var hari = 1;
+  stdout.write('Masukkan angka hari (1-7): ');
+  var hari = int.parse(stdin.readLineSync()!);
 
   switch (hari) {
     case 1:
@@ -61,5 +64,6 @@ void main(List<String> args) {
       print('Sabtu');
       break;
     default:
+      print('Hari tidak terdefinisi');
   }
 }
